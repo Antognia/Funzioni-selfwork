@@ -1,21 +1,18 @@
 
 function contatore(N) {
-let scala = [];
-
-
 for (let i = 1; i <= N; i++) {   
     if (i % 15 == 0) {
-        scala.push('Fizz');
+        scala.push('fizzBuzz');
     } else if(i % 3 == 0) {
         scala.push('Buzz');
     }else if(i % 5 == 0){
-        scala.push('fizzBuzz');
+        scala.push('Fizz');
     }else {
         scala.push(i);
     }
 }
 
- console.log(scala);
+ console.log(i);
 }
 
 contatore(150);
